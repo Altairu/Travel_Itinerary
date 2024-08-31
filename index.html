@@ -5,17 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>旅行工程表</title>
     <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
         table {
             width: 100%;
             border-collapse: collapse;
+            margin-bottom: 20px;
         }
         th, td {
-            border: 1px solid #ccc;
+            border: 1px solid #ddd;
             padding: 8px;
             text-align: left;
         }
         th {
             background-color: #f2f2f2;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -37,32 +49,205 @@
             </tr>
         </thead>
         <tbody>
-            <!-- 1日目 -->
             <tr>
-                <td rowspan="7">9/1 (日)</td>
+                <td>9/1（日）</td>
                 <td>移動</td>
                 <td>10:50</td>
                 <td></td>
-                <td>伊丹空港集合</td>
+                <td>伊丹空港　集合</td>
                 <td>飛行機内で昼ご飯予定</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>9/1（日）</td>
+                <td>移動</td>
+                <td>11:50</td>
+                <td>13:40</td>
+                <td>伊丹空港→新千歳空港</td>
+                <td>ANA775便</td>
                 <td>✈️飛行機</td>
                 <td></td>
                 <td></td>
                 <td></td>
             </tr>
             <tr>
+                <td>9/1（日）</td>
                 <td>移動</td>
-                <td>11:40</td>
-                <td>13:40</td>
-                <td>伊丹空港→新千歳空港</td>
-                <td>ANA775便</td>
-                <td>バス</td>
+                <td>14:10</td>
+                <td>15:40</td>
+                <td>新千歳空港→ホテル</td>
+                <td>北都交通　札幌都心行きバス　1300円</td>
+                <td>🚌バス</td>
                 <td>¥1,300</td>
-                <td><a href="#">札幌〜新千歳空港間 快速「エアポート」最速37分</a></td>
+                <td><a href="https://www.google.com/maps">札幌都心⇔新千歳空港 - 北都交通株式会社</a></td>
                 <td></td>
             </tr>
-            <!-- 他の行も同様に追加 -->
+            <tr>
+                <td>9/1（日）</td>
+                <td>移動</td>
+                <td>15:40</td>
+                <td></td>
+                <td>ホテルチェックイン</td>
+                <td>重い荷物おいてく</td>
+                <td>🚶徒歩</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>9/1（日）</td>
+                <td>観光</td>
+                <td>15:50</td>
+                <td>16:30</td>
+                <td>ホテル→北海道庁→札幌時計台</td>
+                <td></td>
+                <td>🚶徒歩</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <!-- ここまでで1日目のデータ -->
+            <!-- 以下は2日目、3日目のデータ -->
+            <!-- 2日目 -->
+            <tr>
+                <td>9/2（月）</td>
+                <td>移動</td>
+                <td>8:15</td>
+                <td>8:30</td>
+                <td>ホテル→札幌駅</td>
+                <td>タクシー約2キロ　830円</td>
+                <td>🚕タクシー</td>
+                <td>¥830</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>9/2（月）</td>
+                <td>移動</td>
+                <td>9:10</td>
+                <td>9:45</td>
+                <td>札幌駅→小樽駅</td>
+                <td>快速エアポート27号（小樽行）</td>
+                <td>🚆電車</td>
+                <td>¥500</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>9/2（月）</td>
+                <td>観光</td>
+                <td></td>
+                <td></td>
+                <td>小樽観光</td>
+                <td>昼飯ここで 海鮮OR若鶏定食</td>
+                <td></td>
+                <td>¥2,000</td>
+                <td><a href="https://www.example.com">店舗案内 | 若鶏時代なると 本店・小樽市</a></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>9/2（月）</td>
+                <td>移動</td>
+                <td>16:00</td>
+                <td>16:33</td>
+                <td>小樽駅→札幌駅</td>
+                <td>快速エアポート140号（新千歳空港行）</td>
+                <td>🚆電車</td>
+                <td>¥750</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>9/2（月）</td>
+                <td>移動</td>
+                <td>16:52</td>
+                <td></td>
+                <td>さっぽろ→すすきの</td>
+                <td>地下鉄南北線 200円</td>
+                <td>🚇地下鉄</td>
+                <td>¥200</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>9/2（月）</td>
+                <td>食事</td>
+                <td>17:00</td>
+                <td></td>
+                <td>すすきのラーメン横丁</td>
+                <td>味噌ラーメン</td>
+                <td></td>
+                <td>¥1,500</td>
+                <td><a href="https://www.example.com">COCONO SUSUKINO - すみれ 札幌すすきの店</a></td>
+                <td></td>
+            </tr>
+            <!-- ここまでで2日目のデータ -->
+            <!-- 以下は3日目のデータ -->
+            <tr>
+                <td>9/3（火）</td>
+                <td>移動</td>
+                <td>9:17</td>
+                <td></td>
+                <td>中央区役所前駅→狸小路</td>
+                <td>市電　狸小路から徒歩7分</td>
+                <td>🚋市電</td>
+                <td>¥200</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>9/3（火）</td>
+                <td>食事</td>
+                <td>10:00</td>
+                <td></td>
+                <td>二条市場　朝ごはん</td>
+                <td>海鮮丼</td>
+                <td></td>
+                <td>¥1,500</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>9/3（火）</td>
+                <td>移動</td>
+                <td>11:00</td>
+                <td></td>
+                <td>二条市場→札幌駅</td>
+                <td>電車移動</td>
+                <td>🚆電車</td>
+                <td>¥200</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>9/3（火）</td>
+                <td>移動</td>
+                <td>12:00</td>
+                <td></td>
+                <td>札幌駅→新千歳空港</td>
+                <td>電車移動</td>
+                <td>🚆電車</td>
+                <td>¥1,150</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>9/3（火）</td>
+                <td>移動</td>
+                <td>14:18</td>
+                <td>15:40</td>
+                <td>新千歳空港→伊丹空港</td>
+                <td>ANA778便</td>
+                <td>✈️飛行機</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
         </tbody>
     </table>
 </body>
 </html>
+0}&#8203;
